@@ -6,6 +6,11 @@ export const Container = styled.div`
   h4 {
     color: var(--gold);
     font-size: 1.2rem;
+
+    @media (max-width: 720px) {
+      
+      margin-top: 1rem;
+    }
   }
 `;
 
@@ -13,7 +18,12 @@ export const CardsServices = styled.div`
   display: flex;
   justify-content: space-between;
 
-  padding: 5rem 10rem;
+  padding: 5rem 5rem;
+
+  @media (max-width: 720px) {
+    display: block;
+    padding: 3.5rem;
+  }
 `;
 
 export const Card = styled.div`
@@ -38,5 +48,9 @@ export const Card = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+  }
+
+  @media (max-width: 720px) {
+    margin-bottom: 2.5rem;
   }
 `;

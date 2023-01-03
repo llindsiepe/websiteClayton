@@ -10,6 +10,7 @@ import {
 } from "../styles/Home";
 import Qualities from "../components/Qualities";
 import Services from "../components/Services";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -66,6 +67,7 @@ export default function Home() {
           <img src="/image3.png" />
           <img src="/image4.png" />
         </Galery>
+        <Footer />
       </Container>
     </>
   );

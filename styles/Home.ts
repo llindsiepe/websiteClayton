@@ -12,6 +12,14 @@ export const Banner = styled.div`
 
   img {
     width: 35%;
+
+    @media (max-width: 720px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 720px) {
+    display: block;
   }
 `;
 
@@ -20,9 +28,13 @@ export const TextBanner = styled.div`
   margin-left: 3rem;
 
   h1 {
-    width: 55%;
+    width: 65%;
     span {
       font-weight: 600;
+    }
+
+    @media (max-width: 720px) {
+      width: 100%;
     }
   }
 
@@ -30,6 +42,12 @@ export const TextBanner = styled.div`
     font-size: 1rem;
     margin-top: 1rem;
     color: rgba(35, 38, 56, 0.6);
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: 0rem;
   }
 `;
 
@@ -54,6 +72,12 @@ export const ButtonWhatsapp = styled.button`
   img {
     width: 10%;
   }
+
+  @media (max-width: 720px) {
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 export const AboutUs = styled.div`
@@ -75,6 +99,10 @@ export const AboutUs = styled.div`
     margin-top: 2rem;
 
     text-align: justify;
+
+    @media (max-width: 720px) {
+      width: 80%;
+    }
   }
 
   button {
@@ -121,8 +149,27 @@ export const Budget = styled.div`
   span {
     font-weight: 600;
   }
+
+  @media (max-width: 720px) {
+    display: block;
+    margin: 0rem;
+    text-align: center;
+  }
 `;
 
 export const Galery = styled.div`
   display: flex;
+  margin-bottom: 5rem;
+
+  img {
+    width: 25%;
+
+    @media (max-width: 720px) {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    display: block;
+  }
 `;

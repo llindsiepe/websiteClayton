@@ -18,12 +18,22 @@ export const Container = styled.div`
       font-weight: 700;
     }
   }
+
+  @media (max-width: 720px) {
+    margin-top: 0rem;
+    height: 58rem;
+  }
 `;
 
 export const CardsQualities = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0rem 10rem;
+
+  @media (max-width: 720px) {
+    display: block;
+    padding: 0rem 5rem;
+  }
 `;
 
 export const Card = styled.div`
@@ -45,5 +55,10 @@ export const Card = styled.div`
     opacity: 0.6;
     font-weight: 300;
     font-size: 1rem;
+  }
+  
+  @media (max-width: 720px) {
+    width: 100%;
+    margin-bottom: 2.5rem;
   }
 `;
