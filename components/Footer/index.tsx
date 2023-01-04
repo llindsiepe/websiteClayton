@@ -21,24 +21,32 @@ export default function Footer() {
         </Information>
         <FollowUs>
             <h2>Siga-nos nas redes</h2>
-            <Social>
-                <img src='/Facebook.svg' />
-                <h6>Facebook</h6>
-            </Social>
+            <a href="https://www.facebook.com/ctcmontadordemoveis/?_rdc=2&_rdr">
+                <Social>
+                    <img src='/Facebook.svg' />
+                    <h6>Facebook</h6>
+                </Social>
+            </a>
 
-            <Social>
-                <img src='/Instagram.svg' />
-                <h6>Instagram</h6>
-            </Social>
+            <a href="https://www.instagram.com/claytonmontadordemoveis/">
+                <Social>
+                    <img src='/Instagram.svg' />
+                    <h6>Instagram</h6>
+                </Social>
+            </a>
 
-            <Social>
-                <img src='/Tiktok.svg' />
-                <h6>Tiktok</h6>
-            </Social>
+            <a href="https://www.tiktok.com/@claytoncavalcant1">
+                <Social>
+                    <img src='/Tiktok.svg' />
+                    <h6>Tiktok</h6>
+                </Social>
+            </a>
 
             <Rating>
                 <h4>Confira nossas avaliações</h4>
-                <img src="/Google.png" />
+                <a href="https://www.google.com/search?q=Montador+de+M%C3%B3veis+Atibaia+-+Clayton&oq=Montador+de+M%C3%B3veis+Atibaia+-+Clayton&aqs=chrome..69i57j69i60j69i61.466j0j9&sourceid=chrome&ie=UTF-8">
+                    <img src="/Google.png" />
+                </a>
             </Rating>
         </FollowUs>
     </Container>

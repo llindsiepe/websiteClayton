@@ -27,6 +27,10 @@ export const TextBanner = styled.div`
   margin-top: 8rem;
   margin-left: 3rem;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     width: 65%;
     span {
@@ -85,6 +89,10 @@ export const AboutUs = styled.div`
   text-align: center;
 
   justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
 
   h1 {
     span {
@@ -145,6 +153,10 @@ export const Budget = styled.div`
   justify-content: space-between;
 
   margin: 5rem 10rem;
+
+  a {
+    text-decoration: none;
+  }
 
   span {
     font-weight: 600;

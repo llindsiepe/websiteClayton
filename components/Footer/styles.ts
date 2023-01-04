@@ -62,6 +62,11 @@ export const Information = styled.div`
 export const FollowUs = styled.div`
     color: white;
 
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
     h2 {
         margin-bottom: 1rem;
 
