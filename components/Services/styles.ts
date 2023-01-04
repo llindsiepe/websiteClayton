@@ -22,7 +22,7 @@ export const CardsServices = styled.div`
 
   @media (max-width: 720px) {
     display: block;
-    padding: 3.5rem;
+    padding: 2.5rem;
   }
 `;
 
