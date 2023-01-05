@@ -11,6 +11,8 @@ import {
 import Qualities from "../components/Qualities";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
+import RatingUs from "../components/RatingUs";
+
 
 export default function Home() {
   return (
@@ -35,6 +37,7 @@ export default function Home() {
           <img src="/banner.svg" alt="Banner" />
         </Banner>
         <Qualities />
+        <RatingUs />
         <AboutUs>
           <h1>
             Agilidade, comprometimento & <span>eficiência.</span>
